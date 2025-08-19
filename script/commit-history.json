@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-19T10:38:43.000Z",
+      "message": "funcionalidad de multiplicar",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 18,
+      "deletions": 4,
+      "date": "2025-08-19"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
