@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "44a3c2c6ad4820dfab89a3fc22298c5e6388a39d",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-21T12:28:55.000Z",
       "message": "feat: saludo por nombre",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/44a3c2c6ad4820dfab89a3fc22298c5e6388a39d"
     },
     "stats": {
       "total": 24,
       "additions": 22,
       "deletions": 2,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-21T13:02:21.000Z",
+      "message": "feat: saludo por hora",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 16,
+      "deletions": 3,
       "date": "2025-08-21"
     },
     "coverage": 100,

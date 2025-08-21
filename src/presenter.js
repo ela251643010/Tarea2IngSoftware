@@ -1,11 +1,12 @@
 import multiplicar from "./multiplicador";
 import sumar from "./sumador";
-
+import saludarPorHora from "./saludarHora.js";  
+/*
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");
 const form = document.querySelector("#sumar-form");
 const div = document.querySelector("#resultado-div");
-/*
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -25,5 +26,5 @@ formulario.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const nombreInput = formulario.querySelector("#nombre-input");
-  resultadoDiv.innerHTML = `<p>Hola ${nombreInput.value}</p>`;
+  resultadoDiv.innerHTML = `<p>${saludarPorHora()}, ${nombreInput.value}</p>`;
 });
