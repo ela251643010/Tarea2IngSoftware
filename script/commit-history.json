@@ -1,17 +1,36 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "a26fa21ccae852d0a1b60f761a68bf12e239e861",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-19T10:38:43.000Z",
       "message": "funcionalidad de multiplicar",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/a26fa21ccae852d0a1b60f761a68bf12e239e861"
     },
     "stats": {
       "total": 22,
       "additions": 18,
       "deletions": 4,
       "date": "2025-08-19"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-21T12:28:55.000Z",
+      "message": "feat: saludo por nombre",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 22,
+      "deletions": 2,
+      "date": "2025-08-21"
     },
     "coverage": 100,
     "test_count": 1,
