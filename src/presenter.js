@@ -1,6 +1,7 @@
 import multiplicar from "./multiplicador";
 import sumar from "./sumador";
-import saludarPorHora from "./saludarHora.js";  
+import saludarPorHora from "./saludarHora.js"; 
+import saludarPorGeneroYEdad from "./saludarGeneroEdad.js"; 
 /*
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");
@@ -22,9 +23,17 @@ form.addEventListener("submit", (event) => {
 });*/
 const resultadoDiv = document.querySelector("#resultado-div");
 const formulario = document.querySelector("#saludar-form");
+const genero = document.querySelector("#genero-select");
+
 formulario.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const nombreInput = formulario.querySelector("#nombre-input");
-  resultadoDiv.innerHTML = `<p>${saludarPorHora()}, ${nombreInput.value}</p>`;
+  const edad = document.querySelector("#edad-input");
+  resultadoDiv.innerHTML = `
+  <p> 
+    ${saludarPorHora()} 
+    ${saludarPorGeneroYEdad( edad.value, genero.value)} 
+    ${nombreInput.value}
+  </p>`;
 });

@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c86101ad8e09968c95430a8f2b472b8e4f65ab02",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-21T13:02:21.000Z",
       "message": "feat: saludo por hora",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/c86101ad8e09968c95430a8f2b472b8e4f65ab02"
     },
     "stats": {
       "total": 19,
       "additions": 16,
       "deletions": 3,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-21T13:33:30.000Z",
+      "message": "feat: se añadio el saludo por edad y por hora",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 31,
+      "deletions": 2,
       "date": "2025-08-21"
     },
     "coverage": 100,
