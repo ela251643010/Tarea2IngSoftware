@@ -171,12 +171,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "a44d07c6b1d8064a6c421e560fe14ce04c5f8829",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-26T15:41:38.000Z",
       "message": "feat: pruebas de saludo en ingles y espanol completas",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/a44d07c6b1d8064a6c421e560fe14ce04c5f8829"
     },
     "stats": {
       "total": 26,
@@ -188,5 +188,24 @@
     "test_count": 11,
     "failed_tests": 2,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-26T15:50:52.000Z",
+      "message": "prueba de que devuelva fizz si el numero es multiplo de 3",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 8,
+      "deletions": 13,
+      "date": "2025-08-26"
+    },
+    "coverage": 85,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
