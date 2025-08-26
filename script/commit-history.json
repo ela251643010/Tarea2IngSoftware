@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1eb66c0786adbfa04ce241d20bb6d27629e2050e",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-26T13:35:24.000Z",
       "message": "feat: test de saludos completos",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/1eb66c0786adbfa04ce241d20bb6d27629e2050e"
     },
     "stats": {
       "total": 37,
@@ -91,6 +91,25 @@
     },
     "coverage": 81.25,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-26T13:38:49.000Z",
+      "message": "feat: pruebas de la division",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2025-08-26"
+    },
+    "coverage": 82.35,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
