@@ -1,7 +1,7 @@
 import multiplicar from "./multiplicador";
 import sumar from "./sumador";
-import saludarPorHora from "./saludarHora.js"; 
 import saludarPorGeneroYEdad from "./saludarGeneroEdad.js"; 
+import saludarPorHoraEIdioma from "./saludarHoraEidioma.js";
 /*
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");
@@ -30,9 +30,10 @@ formulario.addEventListener("submit", (event) => {
 
   const nombreInput = formulario.querySelector("#nombre-input");
   const edad = document.querySelector("#edad-input");
+  const idioma = document.querySelector("#idioma-select");
   resultadoDiv.innerHTML = `
   <p> 
-    ${saludarPorHora()} 
+    ${saludarPorHoraEIdioma(idioma.value)} 
     ${saludarPorGeneroYEdad( edad.value, genero.value)} 
     ${nombreInput.value}
   </p>`;
