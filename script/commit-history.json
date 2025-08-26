@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "801ff92a7eea2f346a1d8577eab2495bd3cafa52",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-26T15:57:18.000Z",
       "message": "feat: te devuelve Buzz si es multiplo de 5",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/801ff92a7eea2f346a1d8577eab2495bd3cafa52"
     },
     "stats": {
       "total": 2,
@@ -243,6 +243,25 @@
     },
     "coverage": 86.36,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-26T16:12:14.000Z",
+      "message": "feat: devuelve FizzBuzz si el numero es multilpo de 3 y 5",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 13,
+      "deletions": 4,
+      "date": "2025-08-26"
+    },
+    "coverage": 91.67,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }

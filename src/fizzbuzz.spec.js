@@ -7,10 +7,12 @@ describe("fizzbuzz",()=>{
     it("deberia retornar el mismo numero si no es multiplo de 3 o 5",()=>{
         expect(convertirFizzBuzz(1)).toEqual("1")
     })
-    it ("deberia retornar Buzz si el numero es 5",()=>{
+    it ("deberia retornar Buzz si el numero es multiplo de 5",()=>{
 
-        expect(convertirFizzBuzz(5)).toEqual("Buzz")
-
+        expect(convertirFizzBuzz(25)).toEqual("Buzz")
+    })
+    it ("deberia retornar FizzBuzz si el numero es multiplo de 3 y 5",()=>{
+        expect(convertirFizzBuzz(15)).toEqual("FizzBuzz")
     })
 
 })

@@ -1,6 +1,11 @@
 
 function convertirFizzBuzz(n){
-    if(n % 3===0)
+     if(n%5===0 && n%3===0)
+    {
+        return "FizzBuzz"
+    }
+else
+    if (n % 3===0)
     {
         return "Fizz"
     }
@@ -8,6 +13,8 @@ function convertirFizzBuzz(n){
     {
         return "Buzz"
     }
+   
+
     return n+ "";
 }
 export default convertirFizzBuzz;
