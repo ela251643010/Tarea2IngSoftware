@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "64fbdcbac2f7a2a0df88b8ad60c5865908d2c374",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-26T13:41:06.000Z",
       "message": "feat: pruebas division de decimales",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/64fbdcbac2f7a2a0df88b8ad60c5865908d2c374"
     },
     "stats": {
       "total": 3,
@@ -131,5 +131,24 @@
     "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-26T14:21:49.000Z",
+      "message": "feat: convierte en cadena un numero",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 23,
+      "deletions": 0,
+      "date": "2025-08-26"
+    },
+    "coverage": 82.35,
+    "test_count": 10,
+    "failed_tests": 2,
+    "conclusion": "failure"
   }
 ]
