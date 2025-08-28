@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ef5c9ff1bbd4a7b79292c46ce05a6adda10c19ee",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-28T02:19:25.000Z",
       "message": "feat: genera la cadena FizzBuzz con 4",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/ef5c9ff1bbd4a7b79292c46ce05a6adda10c19ee"
     },
     "stats": {
       "total": 17,
@@ -281,6 +281,25 @@
     },
     "coverage": 93.33,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-28T02:23:42.000Z",
+      "message": "feat: Generar cadea FizzBuzz funciona con 15 y 4",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 5,
+      "deletions": 3,
+      "date": "2025-08-28"
+    },
+    "coverage": 93.33,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

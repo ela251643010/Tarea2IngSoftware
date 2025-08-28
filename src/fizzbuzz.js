@@ -17,9 +17,9 @@ else
 
     return n+ "";
 }
-function generarCadenaFizzBuzz(){
+function generarCadenaFizzBuzz(n){
     let resultado="";
-    for(let i=1;i<=4;i++){
+    for(let i=1;i<=n;i++){
         resultado+=convertirFizzBuzz(i);
         resultado+=" "
     }

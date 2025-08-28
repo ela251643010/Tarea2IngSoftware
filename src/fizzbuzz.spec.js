@@ -17,5 +17,7 @@ describe("fizzbuzz",()=>{
     it ("deberia retornar la cadena 1 2 Fizz 4",()=>{
         expect(generarCadenaFizzBuzz(4)).toEqual("1 2 Fizz 4 ")
     })
-
+       it ("deberia retornar la cadena 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 14 FizzBuzz",()=>{
+        expect(generarCadenaFizzBuzz(15)).toEqual("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz ")
+    })
 })
