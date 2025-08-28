@@ -20,7 +20,7 @@ form.addEventListener("submit", (event) => {
     div.innerHTML = `<p>${multiplicar(firstNumber, secondNumber)}</p>`;
   }
   //div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
-});*/
+});
 const resultadoDiv = document.querySelector("#resultado-div");
 const formulario = document.querySelector("#saludar-form");
 const genero = document.querySelector("#genero-select");
@@ -37,4 +37,13 @@ formulario.addEventListener("submit", (event) => {
     ${saludarPorGeneroYEdad( edad.value, genero.value)} 
     ${nombreInput.value}
   </p>`;
+});*/
+import {generarCadenaFizzBuzz} from "./fizzbuzz.js";
+const resultadoDiv = document.querySelector("#resultado-div");    
+const botonFizzBuzz = document.querySelector("#fizzbuzz-button");
+const numeroInput = document.querySelector("#numero-input");  
+botonFizzBuzz.addEventListener("click", (event) => {
+  event.preventDefault();
+  const n = Number.parseInt(numeroInput.value);
+  resultadoDiv.innerHTML = `<p>${generarCadenaFizzBuzz(n)}</p>`;
 });

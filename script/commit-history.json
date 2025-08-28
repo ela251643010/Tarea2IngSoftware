@@ -285,17 +285,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "798999369db4757a3ef656f9e066479cc6d0fc81",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-28T02:23:42.000Z",
       "message": "feat: Generar cadea FizzBuzz funciona con 15 y 4",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/798999369db4757a3ef656f9e066479cc6d0fc81"
     },
     "stats": {
       "total": 8,
       "additions": 5,
       "deletions": 3,
+      "date": "2025-08-28"
+    },
+    "coverage": 93.33,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-28T02:38:45.000Z",
+      "message": "feat: el html y el presenter funcionan con generar la cadena FizzBuzz",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 20,
+      "deletions": 4,
       "date": "2025-08-28"
     },
     "coverage": 93.33,
