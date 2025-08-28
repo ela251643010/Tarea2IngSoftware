@@ -17,4 +17,12 @@ else
 
     return n+ "";
 }
-export default convertirFizzBuzz;
+function generarCadenaFizzBuzz(){
+    let resultado="";
+    for(let i=1;i<=4;i++){
+        resultado+=convertirFizzBuzz(i);
+        resultado+=" "
+    }
+    return resultado;
+}
+export {generarCadenaFizzBuzz, convertirFizzBuzz};

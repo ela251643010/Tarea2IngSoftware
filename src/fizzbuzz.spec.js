@@ -1,5 +1,5 @@
 
-import convertirFizzBuzz from "./fizzbuzz.js";
+import {generarCadenaFizzBuzz, convertirFizzBuzz} from "./fizzbuzz.js";
 describe("fizzbuzz",()=>{
     it("deberia retornar Fizz si el numero es multiplo  3",()=>{
         expect(convertirFizzBuzz(12)).toEqual("Fizz")
@@ -12,7 +12,10 @@ describe("fizzbuzz",()=>{
         expect(convertirFizzBuzz(25)).toEqual("Buzz")
     })
     it ("deberia retornar FizzBuzz si el numero es multiplo de 3 y 5",()=>{
-        expect(convertirFizzBuzz(15)).toEqual("FizzBuzz")
+        expect(convertirFizzBuzz(30)).toEqual("FizzBuzz")
+    })
+    it ("deberia retornar la cadena 1 2 Fizz 4",()=>{
+        expect(generarCadenaFizzBuzz(4)).toEqual("1 2 Fizz 4 ")
     })
 
 })

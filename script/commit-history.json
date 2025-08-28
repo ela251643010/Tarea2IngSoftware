@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a14bb112653ef64f9ec8e49ab3784b96e574a1ce",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-26T16:12:14.000Z",
       "message": "feat: devuelve FizzBuzz si el numero es multilpo de 3 y 5",
-      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/a14bb112653ef64f9ec8e49ab3784b96e574a1ce"
     },
     "stats": {
       "total": 17,
@@ -262,6 +262,25 @@
     },
     "coverage": 91.67,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-28T02:19:25.000Z",
+      "message": "feat: genera la cadena FizzBuzz con 4",
+      "url": "https://github.com/ela251643010/Tarea2IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 14,
+      "deletions": 3,
+      "date": "2025-08-28"
+    },
+    "coverage": 93.33,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
